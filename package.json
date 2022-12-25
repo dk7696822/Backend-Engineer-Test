@@ -1,0 +1,38 @@
+{
+  "name": "backend-engineer-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/services/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dk7696822/Backend-Engineer-Test.git"
+  },
+  "author": "Deepak Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dk7696822/Backend-Engineer-Test/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.8.1"
+  },
+  "homepage": "https://github.com/dk7696822/Backend-Engineer-Test#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.7.0"
+  }
+}
